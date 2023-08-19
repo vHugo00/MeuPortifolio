@@ -92,8 +92,6 @@ li {
   padding-top: 100px;
 }
 
-
-
 .sobre {
   display: flex;
   justify-content: space-between;
@@ -107,6 +105,24 @@ li {
   padding-top: 100px;
 }
 
+.introducao p:after {
+  content: "";
+  display: block;
+  max-width: 360px;
+  height: 2px;
+  background: var(--cor-p2);
+  margin-top: 50px;
+}
+
 .destaque {
   color: var(--cor-p1);
+}
+
+.titulo {
+  padding: 5px;
+  padding-bottom: 10px;
+}
+
+.redes {
+  padding-top: 50px;
 }
