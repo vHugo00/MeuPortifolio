@@ -17,6 +17,7 @@ li {
 .header-bg {
   background-color: var(--cor-5);
   padding: 0px 20px;
+  position: relative;
 }
 
 .header {
@@ -125,4 +126,36 @@ li {
 
 .redes {
   padding-top: 50px;
+}
+
+.services-bg {
+  background-color: var(--cor-4);
+  padding-bottom: 5rem;
+
+}
+
+.desc-services {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.desc-services h1 {
+  color: #FFFFFF;
+}
+
+.desc-services p {
+  color: var(--cor-0);
+  padding-bottom: 5rem;
+}
+
+.experiencias {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  padding: 3rem;
+  background-color: var(--cor-5);
 }
