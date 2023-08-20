@@ -176,8 +176,15 @@ li {
 }
 
 .services-bg {
-  /* Adicione um espaçamento na parte superior para dar espaço para a sombra */
-
-  /* Adicione a sombra usando a propriedade box-shadow */
   box-shadow: inset 0 -120px var(--cor-0);
+}
+
+.projetos-bg {
+  background-color: var(--cor-0);
+  padding-top: 6rem;
+  text-align: center;
+}
+
+.info-principal {
+  padding-bottom: 200px;
 }
