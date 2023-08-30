@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
   color: var(--cor-0);
@@ -186,7 +190,7 @@ li {
 }
 
 .info-principal {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .gallery {
@@ -213,4 +217,9 @@ li {
 .gallery img:hover {
   flex: 1 1 100px;
   opacity: 1;
+}
+
+.footer-bg {
+  background-color: var(--cor-5);
+  height: 400px;
 }
